@@ -19,4 +19,6 @@ class QRCodeBuilder:
     text = qr_code.text()
     print(text)
     
+    print(qr_code.show())
+    
     return qrcode_encoded
