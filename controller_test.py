@@ -21,4 +21,15 @@ class QRCodeBuilder:
     
     print(qr_code.show())
     
+    '''
+    const qrText = new QRCodeText('some value', {
+      blackSymbol: '@@',
+      whiteSymbol: '..',
+    });
+    
+    const qrCode = qrText.toString();
+    console.log(qrCode);
+    '''
+    
+    
     return qrcode_encoded
